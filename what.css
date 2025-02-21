@@ -1,0 +1,94 @@
+/* style1.css */
+
+/* Reset default styles */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light grey background */
+    color: #333; /* Dark text color */
+}
+
+/* Header styles */
+.header {
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333; /* Dark background for nav */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+}
+
+nav ul li {
+    display: inline; /* Display items in a row */
+    margin-right: 20px; /* Space between items */
+}
+
+nav ul li a {
+    color: white; /* White text for links */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 15px; /* Padding around links */
+}
+
+nav ul li a:hover {
+    background-color: #575757; /* Darker background on hover */
+}
+
+/* Main content styles */
+.main-content {
+    padding: 20px; /* Padding around main content */
+}
+
+/* Search section styles */
+.search-section {
+    background-color: #fff; /* White background for search section */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Padding inside the section */
+}
+
+.input-group {
+    display: flex; /* Flexbox for input and button alignment */
+    margin-top: 10px; /* Space above input group */
+}
+
+.input-group input[type="text"] {
+    flex-grow: 1; /* Allow input to take up remaining space */
+    padding: 10px; /* Padding inside the input field */
+    border-radius: 5px 0 0 5px; /* Rounded corners on left side */
+    border: 1px solid #ccc; /* Light grey border */
+}
+
+.input-group button {
+    padding: 10px 15px; /* Padding inside button */
+    border-radius: 0 5px 5px 0; /* Rounded corners on right side */
+    border: none; /* No border for button */
+    background-color: #007BFF; /* Blue background for button */
+    color: white; /* White text for button */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.input-group button:hover {
+    background-color: #0056b3; /* Darker blue on hover for button */
+}
+
+/* Mentors list styles */
+.mentors-list {
+    margin-top: 20px; /* Space above mentors list section */
+}
+
+.mentors-list h2 {
+    margin-bottom: 10px; /* Space below the heading in mentors list section */
+}
